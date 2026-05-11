@@ -120,6 +120,10 @@ common:
     url: https://www.linkedin.com/company/mirantis
   - type: YouTube
     url: https://www.youtube.com/user/mirantisinc
+  - type: Integrations
+    url: https://www.mirantis.com/partners/
+integrations:
+  - name: VIEW PARTNER CATALOG
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
