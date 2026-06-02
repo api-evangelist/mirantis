@@ -2,12 +2,20 @@
   "repo": "mirantis",
   "feeds": [
     {
-      "source": "https://www.mirantis.com/blog/",
+      "source": "https://www.mirantis.com/blog/feed/",
       "feed_url": "https://www.mirantis.com/blog/feed/",
-      "title": "Blog Mirantis",
-      "saved": 43
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://docs.mirantis.com/",
+      "feed_url": "https://docs.mirantis.com/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
-  "post_count": 56,
-  "fetched": "2026-05-17T20:20:35Z"
+  "post_count": 58,
+  "fetched": "2026-06-01T23:35:02Z"
 }
