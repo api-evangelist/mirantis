@@ -100,6 +100,10 @@ apis:
       - type: Website
         url: https://k8slens.dev/
 common:
+  - type: VulnerabilityDisclosure
+    url: security/mirantis-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/mirantis-domain-security.yml
   - type: Website
     url: https://www.mirantis.com/
   - type: Documentation
