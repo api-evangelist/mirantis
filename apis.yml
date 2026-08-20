@@ -83,6 +83,9 @@ apis:
     humanURL: https://k0sproject.io/
     tags:
       - Kubernetes
+      - Open-Source
+    tags_raw:
+      - Kubernetes
       - Open Source
     properties:
       - type: Documentation
