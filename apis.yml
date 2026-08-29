@@ -7,6 +7,17 @@ description: >-
   Container Runtime, Mirantis Secure Registry, Lens Desktop, and the open source k0s
   Kubernetes distribution and k0smotron orchestrator.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
