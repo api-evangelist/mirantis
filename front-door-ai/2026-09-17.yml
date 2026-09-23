@@ -1,0 +1,29 @@
+# Front Door AI Index — mirantis — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: mirantis
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.mirantis.com
+  final_host: www.mirantis.com
+  ownership: own
+  owner: mirantis
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 41
+  host_score: 41
+  density: 38.75
+  words: 1058
+  tiers:
+    agentic: 5
+    core: 36
+    model: 0
+  ambiguous: 2
+  top_terms:
+    AI: 35
+    inference: 4
+    automation: 2
+    MCP: 1
+    ML: 1
