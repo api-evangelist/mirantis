@@ -1,12 +1,16 @@
 aid: mirantis
+
 name: Mirantis
+
 description: >-
   Mirantis provides enterprise Kubernetes and container platform solutions for multi-cloud,
   hybrid-cloud, and edge deployments. Its product line includes Mirantis Kubernetes
   Engine (MKE), k0rdent Enterprise, Mirantis OpenStack for Kubernetes (MOSK), Mirantis
   Container Runtime, Mirantis Secure Registry, Lens Desktop, and the open source k0s
   Kubernetes distribution and k0smotron orchestrator.
+
 type: Index
+
 deliveryModel:
   model: saas
   open_source: false
@@ -18,6 +22,7 @@ deliveryModel:
   - pricing
   generated: '2026-08-28'
   method: derived
+
 accessModel:
   pricing: freemium
   onboarding: unknown
@@ -30,20 +35,85 @@ accessModel:
   - plans
   generated: '2026-07-22'
   method: derived
+
 position: Consuming
+
 access: 3rd-Party
+
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mirantis.png
+
 tags:
   - Kubernetes
   - Containers
   - Cloud
   - DevOps
   - OpenStack
+
 url: >-
   https://raw.githubusercontent.com/api-evangelist/mirantis/refs/heads/main/apis.yml
+
 created: '2026-03-26'
+
 modified: '2026-04-28'
+
 specificationVersion: '0.23'
+
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+
+common:
+  - type: FinOps
+    url: finops/mirantis-finops.yml
+  - type: RateLimits
+    url: rate-limits/mirantis-rate-limits.yml
+  - type: Plans
+    url: plans/mirantis-plans-pricing.yml
+  - type: Security
+    url: https://github.com/Mirantis/security/blob/main/vulnerability-disclosure-policy.md
+  - type: LLMsTxt
+    url: llms/mirantis-llms.txt
+  - type: SecurityTxt
+    url: well-known/mirantis-security.txt
+  - type: WellKnown
+    url: well-known/mirantis-well-known.yml
+  - type: Hosts
+    url: hosts/mirantis-hosts.yml
+  - type: Vendors
+    url: vendors/mirantis-vendors.yml
+  - type: SDKs
+    url: packages/mirantis-packages.yml
+  - type: Packages
+    url: packages/mirantis-packages.yml
+  - type: Leadership
+    url: https://www.mirantis.com/company/leadership/
+  - type: GettingStarted
+    url: https://www.mirantis.com/get-started/
+  - type: VulnerabilityDisclosure
+    url: security/mirantis-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/mirantis-domain-security.yml
+  - type: Website
+    url: https://www.mirantis.com/
+  - type: Documentation
+    url: https://docs.mirantis.com/
+  - type: Blog
+    url: https://www.mirantis.com/blog/
+  - type: GitHub
+    url: https://github.com/Mirantis
+  - type: Support
+    url: https://www.mirantis.com/support/
+  - type: Pricing
+    url: https://www.mirantis.com/contact/
+  - type: Careers
+    url: https://www.mirantis.com/company/careers/
+  - type: Twitter
+    url: https://twitter.com/MirantisIT
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/mirantis
+  - type: Integrations
+    url: https://www.mirantis.com/partners/
+
 apis:
   - aid: mirantis:mirantis
     name: Mirantis
@@ -125,35 +195,21 @@ apis:
     properties:
       - type: Website
         url: https://k8slens.dev/
-common:
-  - type: VulnerabilityDisclosure
-    url: security/mirantis-vulnerability-disclosure.yml
-  - type: DomainSecurity
-    url: security/mirantis-domain-security.yml
-  - type: Website
-    url: https://www.mirantis.com/
-  - type: Documentation
-    url: https://docs.mirantis.com/
-  - type: Blog
-    url: https://www.mirantis.com/blog/
-  - type: GitHub
-    url: https://github.com/Mirantis
-  - type: Support
-    url: https://www.mirantis.com/support/
-  - type: Pricing
-    url: https://www.mirantis.com/contact/
-  - type: Careers
-    url: https://www.mirantis.com/company/careers/
-  - type: Twitter
-    url: https://twitter.com/MirantisIT
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/mirantis
-  - type: YouTube
-    url: https://www.youtube.com/user/mirantisinc
-  - type: Integrations
-    url: https://www.mirantis.com/partners/
+
 integrations:
   - name: VIEW PARTNER CATALOG
-maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: No OpenAPI, AsyncAPI, GraphQL, gRPC, or WSDL contracts were found on the provider's documented API hosts.
+  evidence:
+    - url: https://api.mirantis.com/openapi.json
+      status: 0
+  checked: '2026-10-04'
+x-enrichment:
+  date: '2026-10-04'
+  status: enriched
+  artifacts_added: 8
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

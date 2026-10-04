@@ -1,23 +1,23 @@
-generated: '2026-07-11'
+generated: '2026-10-03'
 method: probed
 source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
 hosts:
 - host: www.mirantis.com
   https: true
   tls_version: TLSv1.3
-  cert_expires: Aug 31 08:33:30 2026 GMT
+  cert_expires: Dec 29 06:37:17 2026 GMT
   hsts: true
   hsts_max_age: 31557600
 - host: k0rdent.io
   https: true
   tls_version: TLSv1.3
-  cert_expires: Aug 29 22:27:22 2026 GMT
+  cert_expires: Dec 28 05:39:23 2026 GMT
   hsts: true
   hsts_max_age: 31556952
 - host: k0sproject.io
   https: true
   tls_version: TLSv1.3
-  cert_expires: Sep 22 09:02:21 2026 GMT
+  cert_expires: Nov 21 18:18:21 2026 GMT
   hsts: false
 domains:
 - domain: mirantis.com
@@ -26,7 +26,7 @@ domains:
   - 0 iodef "mailto:it-security@mirantis.com"
   spf: true
   dmarc: true
-  dmarc_policy: quarantine
+  dmarc_policy: reject
 - domain: k0rdent.io
   dnssec: false
   caa: []
