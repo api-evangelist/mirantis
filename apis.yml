@@ -9,14 +9,18 @@ description: >-
 type: Index
 deliveryModel:
   model: saas
-  open_source: false
+  license_evidence:
+    not_product:
+    - k0sproject/k0s
+  open_source: unknown
   commercial: true
   callable_host: false
   label: Hosted service · you call their endpoint
-  confidence: medium
+  confidence: low
   source:
   - pricing
-  generated: '2026-08-28'
+  - repository-not-product
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: freemium
@@ -72,7 +76,7 @@ apis:
       - type: Documentation
         url: https://docs.mirantis.com/mke/
   - aid: mirantis:k0rdent
-    name: Mirantis k0rdent
+    name: Mirantis K0rdent API
     description: >-
       k0rdent is a composable Kubernetes management platform for centrally
       provisioning, observing, and securing fleets of clusters across clouds
@@ -94,10 +98,11 @@ apis:
     humanURL: https://k0sproject.io/
     tags:
       - Kubernetes
-      - Open-Source
+      - Open Source
     tags_raw:
       - Kubernetes
       - Open Source
+      - Open-Source
     properties:
       - type: Documentation
         url: https://docs.k0sproject.io/
