@@ -1,0 +1,19 @@
+generated: '2026-10-04'
+method: searched
+source: https://registry.npmjs.org/-/v1/search?text=mirantis&size=5
+packages:
+  - name: "@mirantis/lens-extension-cc"
+    registry: "npm"
+    official: true
+    version: "5.6.0"
+    published: "2023-03-06"
+  - name: "@mirantis/beacon-search-widget"
+    registry: "npm"
+    official: true
+    version: "0.1.1"
+    published: "2026-04-27"
+  - name: "@mirantis/lens-extension-cc"
+    registry: "npm"
+    official: true
+    version: "5.6.0"
+    published: "2023-03-06"
