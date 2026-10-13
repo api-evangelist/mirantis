@@ -1,0 +1,25 @@
+generated: '2026-10-13'
+method: searched
+checked:
+- https://azuremarketplace.microsoft.com/
+marketplace_apps: []
+edges:
+- partner_name: Microsoft Azure Marketplace
+  partner: microsoft-azure
+  partner_match: aggregator
+  type: marketplace
+  marketplace: azure-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://azuremarketplace.microsoft.com/en-us/marketplace/apps?search=Mirantis%2C%20Inc.
+  listing_count: 5
+  apps:
+  - Mirantis Container Runtime for Linux (Ubuntu 20 & 22, RHEL 8 & 9)
+  - Mirantis Container Runtime for Windows Server 2025
+  - Mirantis k0s on Win2022 w FIPS
+  - Mirantis Container Runtime for Windows Server 2019
+  - Mirantis Container Runtime for Windows Server 2022
+  seller_name: Mirantis, Inc.
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
