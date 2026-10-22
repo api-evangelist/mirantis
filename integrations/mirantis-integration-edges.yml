@@ -7,6 +7,9 @@ checked:
 - https://github.com/cncf/landscape
 - https://github.com/istio/istio.io
 - docker-hub/integrations/docker-hub-integration-edges.yml
+- https://api.first.org/data/v1/teams
+- https://raw.githubusercontent.com/CVEProject/cve-website/dev/src/assets/data/CNAsList.json
+- https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
 marketplace_apps: []
 edges:
 - partner_name: Microsoft Azure Marketplace
@@ -224,6 +227,46 @@ edges:
   category: Docker Verified Publisher
   badges:
   - Docker Verified Publisher
+- partner_name: CVE Program (CVE Numbering Authorities)
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.cve.org/PartnerInformation/ListofPartners/partner/Mirantis
+  category: Vulnerability disclosure (CVE Numbering Authority)
+  contract_reference:
+    register: CVE Program CNA list (github.com/CVEProject/cve-website CNAsList.json @ 239d3d9b68e0)
+    standard: CVE Program CNA Operational Rules (CVE Numbering Authority)
+    spec_file: null
+    role: cve-numbering-authority
+    registered_name: Mirantis
+    matched_domain: mirantis.com
+    matched_by: domain
+    cna_id: CNA-2001-0062
+    cna_short_name: Mirantis
+    cna_types:
+    - Vendor
+    - Open Source
+    - Researcher
+    cna_roles:
+    - CNA
+    scope: All Mirantis products (supported products and end-of-life/end-of-service products) and open source offerings,
+      as well as vulnerabilities in third-party software discovered by Mirantis that are not in another CNA’s scope.
+    top_level_root: MITRE Corporation
+    root: n/a
+    security_advisories:
+    - https://github.com/Mirantis/security/blob/main/advisories/advisories.md
+    disclosure_policy:
+    - https://github.com/Mirantis/security/blob/main/vulnerability-disclosure-policy.md
+    country: USA
+    signal_note: listing as a CVE Numbering Authority = participation (a public commitment to assign CVE IDs and
+      publish advisories for its scope); never a count of CVEs
+    detected_by: sweep-vulnerability-disclosure-cna.py
+    detected: '2026-10-22'
+  detected_by: sweep-vulnerability-disclosure-cna.py
+  first_seen: '2026-10-22'
 source:
 - https://github.com/cncf/landscape
 - https://github.com/cncf/k8s-conformance
